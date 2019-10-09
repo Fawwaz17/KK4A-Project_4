@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    h3 Demo From
+    from(action='/app4', method='POST')
+        input(type='text', name='username', placeholder='username')
+        br
+        br
+        input(type='text', name='email', placeholder='email')
+        br
+        br
+        input(type='text', name='website', placeholder='website')
+        br
+        br
+        input(type='text', name='phone', placeholder='phone')
+        br
+        br
+        input(type='submit', value='Submit')
